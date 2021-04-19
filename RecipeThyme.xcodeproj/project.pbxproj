@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1337BBCA60ABB735E6D7FF10 /* Pods_RecipeThymeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39067A0B11CED759C4300D7B /* Pods_RecipeThymeTests.framework */; };
+		D8B0E527BBCFDF423FF705A1 /* Pods_RecipeThyme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8152FF130D44944A595A8B1D /* Pods_RecipeThyme.framework */; };
+		EF6A31B32629359A00E9F41A /* RecipeDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A31B22629359A00E9F41A /* RecipeDisplay.swift */; };
+		EF6A31B8262D127B00E9F41A /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A31B7262D127B00E9F41A /* Tutor.swift */; };
+		EF6A31BD262D128A00E9F41A /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A31BC262D128A00E9F41A /* Tutor.xcassets */; };
+		EF6A31CA262D4C2C00E9F41A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A31C9262D4C2C00E9F41A /* Data.swift */; };
+		EF6A31E0262D60B200E9F41A /* Spoonacular Client in Resources */ = {isa = PBXBuildFile; fileRef = EF6A31DF262D60B200E9F41A /* Spoonacular Client */; };
+		EFD65D13260D6B5100D861F5 /* RecipeThymeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D12260D6B5100D861F5 /* RecipeThymeApp.swift */; };
+		EFD65D15260D6B5100D861F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D14260D6B5100D861F5 /* ContentView.swift */; };
+		EFD65D17260D6B5200D861F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD65D16260D6B5200D861F5 /* Assets.xcassets */; };
+		EFD65D1A260D6B5200D861F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD65D19260D6B5200D861F5 /* Preview Assets.xcassets */; };
+		EFD65D25260D6B5200D861F5 /* RecipeThymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D24260D6B5200D861F5 /* RecipeThymeTests.swift */; };
+		EFD65D30260D6B5200D861F5 /* RecipeThymeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D2F260D6B5200D861F5 /* RecipeThymeUITests.swift */; };
+		EFD65D41260D6E3800D861F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD65D40260D6E3800D861F5 /* GoogleService-Info.plist */; };
+		EFD65D52260D710000D861F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D51260D710000D861F5 /* AppDelegate.swift */; };
+		EFD65D8D260DB7B100D861F5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD65D8C260DB7B100D861F5 /* Register.swift */; };
+		FFC8D95E7AFC75F94E86196D /* Pods_RecipeThyme_RecipeThymeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486BF76A543D33A7275166DD /* Pods_RecipeThyme_RecipeThymeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD65D21260D6B5200D861F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD65D07260D6B5000D861F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD65D0E260D6B5000D861F5;
+			remoteInfo = RecipeThyme;
+		};
+		EFD65D2C260D6B5200D861F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD65D07260D6B5000D861F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD65D0E260D6B5000D861F5;
+			remoteInfo = RecipeThyme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B4B0FD6DF32585C78561FC /* Pods-RecipeThymeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThymeTests.release.xcconfig"; path = "Target Support Files/Pods-RecipeThymeTests/Pods-RecipeThymeTests.release.xcconfig"; sourceTree = "<group>"; };
+		39067A0B11CED759C4300D7B /* Pods_RecipeThymeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeThymeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486BF76A543D33A7275166DD /* Pods_RecipeThyme_RecipeThymeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeThyme_RecipeThymeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EC3663CDD2C1456EA7D3F8 /* Pods-RecipeThymeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThymeTests.debug.xcconfig"; path = "Target Support Files/Pods-RecipeThymeTests/Pods-RecipeThymeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8152FF130D44944A595A8B1D /* Pods_RecipeThyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeThyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC70D39DA4B753580A830F9 /* Pods-RecipeThyme-RecipeThymeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThyme-RecipeThymeUITests.release.xcconfig"; path = "Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C353DF00F3E9A7C8FDEB1C83 /* Pods-RecipeThyme-RecipeThymeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThyme-RecipeThymeUITests.debug.xcconfig"; path = "Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7008810DE9E7DD26FC3A2DE /* Pods-RecipeThyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThyme.debug.xcconfig"; path = "Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6A31B22629359A00E9F41A /* RecipeDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDisplay.swift; sourceTree = "<group>"; };
+		EF6A31B7262D127B00E9F41A /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		EF6A31BC262D128A00E9F41A /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
+		EF6A31C9262D4C2C00E9F41A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EF6A31DF262D60B200E9F41A /* Spoonacular Client */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Spoonacular Client"; sourceTree = "<group>"; };
+		EFD65D0F260D6B5000D861F5 /* RecipeThyme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeThyme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD65D12260D6B5100D861F5 /* RecipeThymeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeThymeApp.swift; sourceTree = "<group>"; };
+		EFD65D14260D6B5100D861F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFD65D16260D6B5200D861F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD65D19260D6B5200D861F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFD65D1B260D6B5200D861F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD65D20260D6B5200D861F5 /* RecipeThymeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeThymeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD65D24260D6B5200D861F5 /* RecipeThymeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeThymeTests.swift; sourceTree = "<group>"; };
+		EFD65D26260D6B5200D861F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD65D2B260D6B5200D861F5 /* RecipeThymeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeThymeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD65D2F260D6B5200D861F5 /* RecipeThymeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeThymeUITests.swift; sourceTree = "<group>"; };
+		EFD65D31260D6B5200D861F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD65D40260D6E3800D861F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFD65D51260D710000D861F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD65D8C260DB7B100D861F5 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		F68D125D8E92DBCCFB897197 /* Pods-RecipeThyme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeThyme.release.xcconfig"; path = "Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD65D0C260D6B5000D861F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B0E527BBCFDF423FF705A1 /* Pods_RecipeThyme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D1D260D6B5200D861F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1337BBCA60ABB735E6D7FF10 /* Pods_RecipeThymeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D28260D6B5200D861F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8D95E7AFC75F94E86196D /* Pods_RecipeThyme_RecipeThymeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB8489419EF0D7C562F0CA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7008810DE9E7DD26FC3A2DE /* Pods-RecipeThyme.debug.xcconfig */,
+				F68D125D8E92DBCCFB897197 /* Pods-RecipeThyme.release.xcconfig */,
+				C353DF00F3E9A7C8FDEB1C83 /* Pods-RecipeThyme-RecipeThymeUITests.debug.xcconfig */,
+				BBC70D39DA4B753580A830F9 /* Pods-RecipeThyme-RecipeThymeUITests.release.xcconfig */,
+				59EC3663CDD2C1456EA7D3F8 /* Pods-RecipeThymeTests.debug.xcconfig */,
+				15B4B0FD6DF32585C78561FC /* Pods-RecipeThymeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB30237E2B94C27C7D4EB11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8152FF130D44944A595A8B1D /* Pods_RecipeThyme.framework */,
+				486BF76A543D33A7275166DD /* Pods_RecipeThyme_RecipeThymeUITests.framework */,
+				39067A0B11CED759C4300D7B /* Pods_RecipeThymeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD65D06260D6B5000D861F5 = {
+			isa = PBXGroup;
+			children = (
+				EFD65D11260D6B5000D861F5 /* RecipeThyme */,
+				EFD65D23260D6B5200D861F5 /* RecipeThymeTests */,
+				EFD65D2E260D6B5200D861F5 /* RecipeThymeUITests */,
+				EFD65D10260D6B5000D861F5 /* Products */,
+				1EB8489419EF0D7C562F0CA8 /* Pods */,
+				CB30237E2B94C27C7D4EB11C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD65D10260D6B5000D861F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD65D0F260D6B5000D861F5 /* RecipeThyme.app */,
+				EFD65D20260D6B5200D861F5 /* RecipeThymeTests.xctest */,
+				EFD65D2B260D6B5200D861F5 /* RecipeThymeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD65D11260D6B5000D861F5 /* RecipeThyme */ = {
+			isa = PBXGroup;
+			children = (
+				EFD65D51260D710000D861F5 /* AppDelegate.swift */,
+				EFD65D12260D6B5100D861F5 /* RecipeThymeApp.swift */,
+				EFD65D14260D6B5100D861F5 /* ContentView.swift */,
+				EFD65D8C260DB7B100D861F5 /* Register.swift */,
+				EF6A31B22629359A00E9F41A /* RecipeDisplay.swift */,
+				EF6A31B7262D127B00E9F41A /* Tutor.swift */,
+				EF6A31C9262D4C2C00E9F41A /* Data.swift */,
+				EF6A31DF262D60B200E9F41A /* Spoonacular Client */,
+				EF6A31BC262D128A00E9F41A /* Tutor.xcassets */,
+				EFD65D16260D6B5200D861F5 /* Assets.xcassets */,
+				EFD65D1B260D6B5200D861F5 /* Info.plist */,
+				EFD65D40260D6E3800D861F5 /* GoogleService-Info.plist */,
+				EFD65D18260D6B5200D861F5 /* Preview Content */,
+			);
+			path = RecipeThyme;
+			sourceTree = "<group>";
+		};
+		EFD65D18260D6B5200D861F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFD65D19260D6B5200D861F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFD65D23260D6B5200D861F5 /* RecipeThymeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD65D24260D6B5200D861F5 /* RecipeThymeTests.swift */,
+				EFD65D26260D6B5200D861F5 /* Info.plist */,
+			);
+			path = RecipeThymeTests;
+			sourceTree = "<group>";
+		};
+		EFD65D2E260D6B5200D861F5 /* RecipeThymeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD65D2F260D6B5200D861F5 /* RecipeThymeUITests.swift */,
+				EFD65D31260D6B5200D861F5 /* Info.plist */,
+			);
+			path = RecipeThymeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD65D0E260D6B5000D861F5 /* RecipeThyme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD65D34260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThyme" */;
+			buildPhases = (
+				C133FC771FA7A7751C271B4E /* [CP] Check Pods Manifest.lock */,
+				EFD65D0B260D6B5000D861F5 /* Sources */,
+				EFD65D0C260D6B5000D861F5 /* Frameworks */,
+				EFD65D0D260D6B5000D861F5 /* Resources */,
+				BB90353D9C42B951176217F9 /* [CP] Embed Pods Frameworks */,
+				E9E1D70526E13EB49901D300 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeThyme;
+			productName = RecipeThyme;
+			productReference = EFD65D0F260D6B5000D861F5 /* RecipeThyme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD65D1F260D6B5200D861F5 /* RecipeThymeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD65D37260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThymeTests" */;
+			buildPhases = (
+				9ED5BF60899988CCD9930EAC /* [CP] Check Pods Manifest.lock */,
+				EFD65D1C260D6B5200D861F5 /* Sources */,
+				EFD65D1D260D6B5200D861F5 /* Frameworks */,
+				EFD65D1E260D6B5200D861F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD65D22260D6B5200D861F5 /* PBXTargetDependency */,
+			);
+			name = RecipeThymeTests;
+			productName = RecipeThymeTests;
+			productReference = EFD65D20260D6B5200D861F5 /* RecipeThymeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD65D2A260D6B5200D861F5 /* RecipeThymeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD65D3A260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThymeUITests" */;
+			buildPhases = (
+				C5A4236D3D3F92673395F182 /* [CP] Check Pods Manifest.lock */,
+				EFD65D27260D6B5200D861F5 /* Sources */,
+				EFD65D28260D6B5200D861F5 /* Frameworks */,
+				EFD65D29260D6B5200D861F5 /* Resources */,
+				06C7559069A866ADB0DCA23D /* [CP] Embed Pods Frameworks */,
+				6A5FEF6A917D437BE32B420F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD65D2D260D6B5200D861F5 /* PBXTargetDependency */,
+			);
+			name = RecipeThymeUITests;
+			productName = RecipeThymeUITests;
+			productReference = EFD65D2B260D6B5200D861F5 /* RecipeThymeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD65D07260D6B5000D861F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EFD65D0E260D6B5000D861F5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EFD65D1F260D6B5200D861F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EFD65D0E260D6B5000D861F5;
+					};
+					EFD65D2A260D6B5200D861F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EFD65D0E260D6B5000D861F5;
+					};
+				};
+			};
+			buildConfigurationList = EFD65D0A260D6B5000D861F5 /* Build configuration list for PBXProject "RecipeThyme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD65D06260D6B5000D861F5;
+			productRefGroup = EFD65D10260D6B5000D861F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD65D0E260D6B5000D861F5 /* RecipeThyme */,
+				EFD65D1F260D6B5200D861F5 /* RecipeThymeTests */,
+				EFD65D2A260D6B5200D861F5 /* RecipeThymeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD65D0D260D6B5000D861F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A31BD262D128A00E9F41A /* Tutor.xcassets in Resources */,
+				EFD65D1A260D6B5200D861F5 /* Preview Assets.xcassets in Resources */,
+				EFD65D17260D6B5200D861F5 /* Assets.xcassets in Resources */,
+				EFD65D41260D6E3800D861F5 /* GoogleService-Info.plist in Resources */,
+				EF6A31E0262D60B200E9F41A /* Spoonacular Client in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D1E260D6B5200D861F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D29260D6B5200D861F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C7559069A866ADB0DCA23D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5FEF6A917D437BE32B420F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme-RecipeThymeUITests/Pods-RecipeThyme-RecipeThymeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED5BF60899988CCD9930EAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeThymeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB90353D9C42B951176217F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C133FC771FA7A7751C271B4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeThyme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A4236D3D3F92673395F182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeThyme-RecipeThymeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E1D70526E13EB49901D300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeThyme/Pods-RecipeThyme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD65D0B260D6B5000D861F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6A31CA262D4C2C00E9F41A /* Data.swift in Sources */,
+				EFD65D52260D710000D861F5 /* AppDelegate.swift in Sources */,
+				EFD65D15260D6B5100D861F5 /* ContentView.swift in Sources */,
+				EF6A31B32629359A00E9F41A /* RecipeDisplay.swift in Sources */,
+				EFD65D13260D6B5100D861F5 /* RecipeThymeApp.swift in Sources */,
+				EF6A31B8262D127B00E9F41A /* Tutor.swift in Sources */,
+				EFD65D8D260DB7B100D861F5 /* Register.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D1C260D6B5200D861F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD65D25260D6B5200D861F5 /* RecipeThymeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD65D27260D6B5200D861F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD65D30260D6B5200D861F5 /* RecipeThymeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD65D22260D6B5200D861F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD65D0E260D6B5000D861F5 /* RecipeThyme */;
+			targetProxy = EFD65D21260D6B5200D861F5 /* PBXContainerItemProxy */;
+		};
+		EFD65D2D260D6B5200D861F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD65D0E260D6B5000D861F5 /* RecipeThyme */;
+			targetProxy = EFD65D2C260D6B5200D861F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFD65D32260D6B5200D861F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD65D33260D6B5200D861F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD65D35260D6B5200D861F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7008810DE9E7DD26FC3A2DE /* Pods-RecipeThyme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeThyme/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecipeThyme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThyme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD65D36260D6B5200D861F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68D125D8E92DBCCFB897197 /* Pods-RecipeThyme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeThyme/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecipeThyme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThyme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD65D38260D6B5200D861F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EC3663CDD2C1456EA7D3F8 /* Pods-RecipeThymeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				INFOPLIST_FILE = RecipeThymeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThymeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeThyme.app/RecipeThyme";
+			};
+			name = Debug;
+		};
+		EFD65D39260D6B5200D861F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B4B0FD6DF32585C78561FC /* Pods-RecipeThymeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				INFOPLIST_FILE = RecipeThymeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThymeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeThyme.app/RecipeThyme";
+			};
+			name = Release;
+		};
+		EFD65D3B260D6B5200D861F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C353DF00F3E9A7C8FDEB1C83 /* Pods-RecipeThyme-RecipeThymeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				INFOPLIST_FILE = RecipeThymeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThymeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecipeThyme;
+			};
+			name = Debug;
+		};
+		EFD65D3C260D6B5200D861F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC70D39DA4B753580A830F9 /* Pods-RecipeThyme-RecipeThymeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GDQ88ML54;
+				INFOPLIST_FILE = RecipeThymeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IN.RecipeThymeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecipeThyme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD65D0A260D6B5000D861F5 /* Build configuration list for PBXProject "RecipeThyme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD65D32260D6B5200D861F5 /* Debug */,
+				EFD65D33260D6B5200D861F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD65D34260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThyme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD65D35260D6B5200D861F5 /* Debug */,
+				EFD65D36260D6B5200D861F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD65D37260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThymeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD65D38260D6B5200D861F5 /* Debug */,
+				EFD65D39260D6B5200D861F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD65D3A260D6B5200D861F5 /* Build configuration list for PBXNativeTarget "RecipeThymeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD65D3B260D6B5200D861F5 /* Debug */,
+				EFD65D3C260D6B5200D861F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD65D07260D6B5000D861F5 /* Project object */;
+}
